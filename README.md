@@ -1,0 +1,2 @@
+# BoozeBuddy
+CSCI-370
