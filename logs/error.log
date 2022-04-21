@@ -1,2 +1,39 @@
 [Thu Apr 21 13:08:26.314000 2022] [mpm_prefork:notice] [pid 446] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
 [Thu Apr 21 13:08:26.314568 2022] [core:notice] [pid 446] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Apr 21 14:17:47.322837 2022] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 21 14:17:47.323289 2022] [core:notice] [pid 30] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Apr 21 14:22:25.396709 2022] [mpm_prefork:notice] [pid 30] AH00169: caught SIGTERM, shutting down
+[Thu Apr 21 14:22:52.083846 2022] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 21 14:22:52.084355 2022] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Apr 21 14:23:23.684058 2022] [php:notice] [pid 31] [client 172.17.0.1:32950] PHP Warning:  Undefined variable $conn in /app/index.php on line 28
+[Thu Apr 21 14:23:23.684433 2022] [php:notice] [pid 31] [client 172.17.0.1:32950] PHP Stack trace:
+[Thu Apr 21 14:23:23.684821 2022] [php:notice] [pid 31] [client 172.17.0.1:32950] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:23:23.685428 2022] [php:notice] [pid 31] [client 172.17.0.1:32950] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:28\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 28
+[Thu Apr 21 14:23:58.135661 2022] [php:notice] [pid 33] [client 172.17.0.1:32956] PHP Warning:  Undefined variable $conn in /app/index.php on line 30
+[Thu Apr 21 14:23:58.136459 2022] [php:notice] [pid 33] [client 172.17.0.1:32956] PHP Stack trace:
+[Thu Apr 21 14:23:58.137255 2022] [php:notice] [pid 33] [client 172.17.0.1:32956] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:23:58.138124 2022] [php:notice] [pid 33] [client 172.17.0.1:32956] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
+[Thu Apr 21 14:30:12.098687 2022] [mpm_prefork:notice] [pid 29] AH00169: caught SIGTERM, shutting down
+[Thu Apr 21 14:31:30.229903 2022] [mpm_prefork:notice] [pid 445] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 21 14:31:30.230385 2022] [core:notice] [pid 445] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Apr 21 14:33:48.178933 2022] [php:notice] [pid 447] [client 172.17.0.1:32976] PHP Warning:  Undefined variable $conn in /app/index.php on line 30
+[Thu Apr 21 14:33:48.180162 2022] [php:notice] [pid 447] [client 172.17.0.1:32976] PHP Stack trace:
+[Thu Apr 21 14:33:48.181074 2022] [php:notice] [pid 447] [client 172.17.0.1:32976] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:33:48.182970 2022] [php:notice] [pid 447] [client 172.17.0.1:32976] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
+[Thu Apr 21 14:42:52.135477 2022] [php:notice] [pid 449] [client 172.17.0.1:32992] PHP Warning:  Undefined variable $conn in /app/index.php on line 30
+[Thu Apr 21 14:42:52.136742 2022] [php:notice] [pid 449] [client 172.17.0.1:32992] PHP Stack trace:
+[Thu Apr 21 14:42:52.137820 2022] [php:notice] [pid 449] [client 172.17.0.1:32992] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:42:52.139083 2022] [php:notice] [pid 449] [client 172.17.0.1:32992] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
+[Thu Apr 21 14:43:30.770196 2022] [php:notice] [pid 450] [client 172.17.0.1:32996] PHP Warning:  Undefined variable $conn in /app/index.php on line 30
+[Thu Apr 21 14:43:30.771219 2022] [php:notice] [pid 450] [client 172.17.0.1:32996] PHP Stack trace:
+[Thu Apr 21 14:43:30.771828 2022] [php:notice] [pid 450] [client 172.17.0.1:32996] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:43:30.773031 2022] [php:notice] [pid 450] [client 172.17.0.1:32996] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
+[Thu Apr 21 14:50:26.578172 2022] [php:notice] [pid 447] [client 172.17.0.1:33006] PHP Warning:  Undefined variable $conn in /app/index.php on line 30
+[Thu Apr 21 14:50:26.578796 2022] [php:notice] [pid 447] [client 172.17.0.1:33006] PHP Stack trace:
+[Thu Apr 21 14:50:26.579407 2022] [php:notice] [pid 447] [client 172.17.0.1:33006] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:50:26.580224 2022] [php:notice] [pid 447] [client 172.17.0.1:33006] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
+[Thu Apr 21 14:50:28.101943 2022] [php:notice] [pid 829] [client 172.17.0.1:33008] PHP Warning:  Undefined variable $conn in /app/index.php on line 30
+[Thu Apr 21 14:50:28.102749 2022] [php:notice] [pid 829] [client 172.17.0.1:33008] PHP Stack trace:
+[Thu Apr 21 14:50:28.103278 2022] [php:notice] [pid 829] [client 172.17.0.1:33008] PHP   1. {main}() /app/index.php:0
+[Thu Apr 21 14:50:28.104000 2022] [php:notice] [pid 829] [client 172.17.0.1:33008] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
+[Thu Apr 21 14:51:14.311603 2022] [mpm_prefork:notice] [pid 445] AH00169: caught SIGTERM, shutting down

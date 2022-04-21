@@ -1,9 +1,9 @@
--- admin  P8MHNpCJiICT
+-- admin  JUDrFc6Cmv5M
 CREATE DATABASE IF NOT EXISTS BoozeBuddy;
 USE BoozeBuddy;
 
 DROP TABLE IF EXISTS Store, Alcohol, Store_Bev;
---Table: Beer
+-- Table: Beer
 CREATE TABLE Alcohol
 (
 	AlcID SMALLINT(5) NOT NULL,
@@ -17,11 +17,11 @@ CREATE TABLE Alcohol
 INSERT INTO Alcohol VALUES('Gallo',5, 'Pale Lager', 'Guatemala');
 INSERT INTO Alcohol VALUES('Blue Moon', 5.4, 'Witbier', 'America');
 INSERT INTO Alcohol VALUES('Hamms', 4.7, 'Lager', 'America');
-INSERT INTO Alcohol VALUES('Coors Lite', 5.2), 'Lite Lager', 'America';
+INSERT INTO Alcohol VALUES('Coors Lite', 5.2, 'Lite Lager', 'America');
 INSERT INTO Alcohol VALUES('Yuengling', 5.4, 'Lager', 'America');
 INSERT INTO Alcohol VALUES('Miller Lite', 4.2, 'Lite Lager', 'America');
 
---Table Store
+-- Table Store
 CREATE TABLE Store
 (
 	StoreID int NOT NULL AUTO_INCREMENT,
@@ -45,6 +45,7 @@ CREATE TABLE Store_Bev
 	AlcID int,
 	DateObserved DATE,
 	PRIMARY KEY (Price),
-	FOREIGN KEY (StoreID, AlcID)
-)
+	FOREIGN KEY (AlcID) REFERENCES Alcohol(ALCID),
+	FOREIGN KEY (StoreID) REFERENCES Store(StoreID)
+);
 
