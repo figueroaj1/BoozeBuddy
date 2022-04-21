@@ -1,15 +1,81 @@
-<?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDBPDO";
-
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <header>
+            <title>Booze Buddy</title>
+            <meta charset="UTF-8">
+            
+    </body>
+    <?php
+        //Change this data to connect to database
+        $servername = "localhost";
+        $username = "username";
+        $password = "password";
+        $dbname = "database_name";
+          
+        // Create connection
+        $conn = new mysqli($servername, 
+            $username, $password, $dbname);
+          
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " 
+                . $conn->connect_error);
+        }
+          //change these to reflect actual data
+        $sqlquery = "INSERT INTO table VALUES 
+            ('John', 'Doe', 'john@example.com')"
+          
+        if ($conn->query($sql) === TRUE) {
+            echo "record inserted successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    ?>
+    <main>
+        <h2> Please enter information </h2>
+        <form>
+            <label for="storeID"> Store ID: </label>
+            <br>
+            <input type="text" id="storeID">
+            <br><br>
+            <label for="price"> Price: </label>
+            <br>
+            <input type="text" id="price">
+            <br><br>
+            <label for="alcoholID"> Alcohol ID: </label>
+            <br>
+            <input type="text" id="alcoholID">
+            <br><br>
+            <label for="date"> Date Observed: </label>
+            <br>
+            <input type="text" id="date">
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+        <?php
+  
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            
+                // collect value of input field
+                $storeID = $_REQUEST['storeID'];
+                $price = $_REQUEST['price'];
+                $alcoholID = $_REQUEST['alcoholID'];
+                $date = $_REQUEST['date'];
+            
+                if (empty($alcoholID) || empty($storeID) || empty($price)) {
+                    echo "data is empty";
+                } else {
+                    echo $storeID;
+                    echo $price;
+                    echo $alcoholID;
+                    echo $date;
+                }
+            }
+  
+            // Closing the connection.
+            $conn->close();
+  
+        ?>
+    </main>
+</html>
