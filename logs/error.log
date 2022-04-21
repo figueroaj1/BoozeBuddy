@@ -1,0 +1,2 @@
+[Thu Apr 21 13:08:26.314000 2022] [mpm_prefork:notice] [pid 446] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 21 13:08:26.314568 2022] [core:notice] [pid 446] AH00094: Command line: 'apache2 -D FOREGROUND'
