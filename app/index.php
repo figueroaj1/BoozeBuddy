@@ -32,7 +32,7 @@
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
-    ?>
+    ?> 
     <main>
         <h2> Please enter information </h2>
         <form>
