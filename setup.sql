@@ -1,25 +1,25 @@
 -- admin  JUDrFc6Cmv5M
-CREATE DATABASE IF NOT EXISTS BoozeBuddy;
-USE BoozeBuddy;
+CREATE DATABASE IF NOT EXISTS boozebuddy;
+USE boozebuddy;
 
 DROP TABLE IF EXISTS Store, Alcohol, Store_Bev;
 -- Table: Beer
 CREATE TABLE Alcohol
 (
-	AlcID SMALLINT(5) NOT NULL,
+	AlcID int NOT NULL,
 	DrinkName varchar(35),
 	ABV int,
 	BeerType varchar(20),
 	COI varchar(20),
-	PRIMARY KEY (DrinkName)
+	PRIMARY KEY (AlcID)
 );
 
-INSERT INTO Alcohol VALUES('Gallo',5, 'Pale Lager', 'Guatemala');
-INSERT INTO Alcohol VALUES('Blue Moon', 5.4, 'Witbier', 'America');
-INSERT INTO Alcohol VALUES('Hamms', 4.7, 'Lager', 'America');
-INSERT INTO Alcohol VALUES('Coors Lite', 5.2, 'Lite Lager', 'America');
-INSERT INTO Alcohol VALUES('Yuengling', 5.4, 'Lager', 'America');
-INSERT INTO Alcohol VALUES('Miller Lite', 4.2, 'Lite Lager', 'America');
+INSERT INTO Alcohol VALUES(502, 'Gallo', 5, 'Pale Lager', 'Guatemala');
+INSERT INTO Alcohol VALUES(100, 'Blue Moon', 5.4, 'Witbier', 'America');
+INSERT INTO Alcohol VALUES(101, 'Hamms', 4.7, 'Lager', 'America');
+INSERT INTO Alcohol VALUES(102, 'Coors Lite', 5.2, 'Lite Lager', 'America');
+INSERT INTO Alcohol VALUES(103, 'Yuengling', 5.4, 'Lager', 'America');
+INSERT INTO Alcohol VALUES(104, 'Miller Lite', 4.2, 'Lite Lager', 'America');
 
 -- Table Store
 CREATE TABLE Store
@@ -28,24 +28,23 @@ CREATE TABLE Store
 	Store_Name varchar(20),
 	begin_time time(2),
 	end_time time(2),
-	LATITUDE int,
-	LONGITUDE int,
-	PRIMARY KEY (Store_Name),
-	FOREIGN KEY (StoreId) REFERENCES Alcohol(AlcID)
-	ON DELETE CASCADE
-	ON UPDATE CASCADE
+	LAT int,
+	LON int,
+	PRIMARY KEY (StoreID)
 );
 
-INSERT INTO Store VALUES('Wallmart', '9:00', '24:00', 36.358498566, -94.209832494);
+INSERT INTO Store VALUES(1 ,'Wallmart', '9:00', '24:00', 36.358498566, -94.209832494);
 
+-- Table Store Bev
 CREATE TABLE Store_Bev
 (
-	StoreID int NOT NULL AUTO_INCREMENT,
+	StoreID int NOT NULL,
 	Price int,
-	AlcID int,
-	DateObserved DATE,
-	PRIMARY KEY (Price),
-	FOREIGN KEY (AlcID) REFERENCES Alcohol(ALCID),
+	AlcID int NOT NULL,
+	-- DateObserved DATE,
+	PRIMARY KEY (StoreID, AlcID),
+	FOREIGN KEY (AlcID) REFERENCES Alcohol(AlcID),
 	FOREIGN KEY (StoreID) REFERENCES Store(StoreID)
 );
+INSERT INTO Store_Bev VALUES(1, 6, 502);
 
