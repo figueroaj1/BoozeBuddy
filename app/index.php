@@ -12,8 +12,8 @@
             <?php
                 //Connect to database          
                 $host = "localhost";
-                $port = 3307;
-                $socket = "";
+                $port = "81";
+                $socket = "3307";
                 $user = "root";
                 $password = "";
                 $dbname = "BoozeBuddy";
@@ -21,13 +21,16 @@
                 //test connection
                 try {
                     $dbh = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
+                    echo 'here is something';
+                    $conn = new mysqli($host, $user, $password, $dbname);
+            
                 } catch (PDOException $e) {
                     echo 'Connection failed: ' . $e->getMessage();
                 }
                 //change these to reflect actual data
-                $sqlquery = "INSERT INTO Alcohol VALUES ('Miller Lite2', 4, 'Lite Lager YEET', 'America Y NOT')";
-                
-                if ($conn->query($sql) === TRUE) {
+                $sqlquery = "INSERT INTO Alcohol VALUES ( 105, 'Miller Lite2', 4, 'Lite Lager YEET', 'America Y NOT')";
+                echo 'before if statement';
+                if ($conn->query($sqlquery) === TRUE) {
                     echo "record inserted successfully";
                 } else {
                     echo "Error: " . $sql . "<br>" . $conn->error;
