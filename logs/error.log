@@ -37,3 +37,347 @@
 [Thu Apr 21 14:50:28.103278 2022] [php:notice] [pid 829] [client 172.17.0.1:33008] PHP   1. {main}() /app/index.php:0
 [Thu Apr 21 14:50:28.104000 2022] [php:notice] [pid 829] [client 172.17.0.1:33008] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:30\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 30
 [Thu Apr 21 14:51:14.311603 2022] [mpm_prefork:notice] [pid 445] AH00169: caught SIGTERM, shutting down
+[Thu Apr 28 03:06:11.199058 2022] [mpm_prefork:notice] [pid 446] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 28 03:06:11.199525 2022] [core:notice] [pid 446] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Apr 28 03:13:26.937411 2022] [php:notice] [pid 448] [client 172.17.0.1:35312] PHP Warning:  Undefined variable $conn in /app/index.php on line 84
+[Thu Apr 28 03:13:26.937894 2022] [php:notice] [pid 448] [client 172.17.0.1:35312] PHP Stack trace:
+[Thu Apr 28 03:13:26.938255 2022] [php:notice] [pid 448] [client 172.17.0.1:35312] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:13:26.938671 2022] [php:notice] [pid 448] [client 172.17.0.1:35312] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:84\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 84
+[Thu Apr 28 03:14:36.091966 2022] [php:notice] [pid 450] [client 172.17.0.1:35324] PHP Warning:  Undefined variable $conn in /app/index.php on line 84
+[Thu Apr 28 03:14:36.093245 2022] [php:notice] [pid 450] [client 172.17.0.1:35324] PHP Stack trace:
+[Thu Apr 28 03:14:36.093770 2022] [php:notice] [pid 450] [client 172.17.0.1:35324] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:14:36.094122 2022] [php:notice] [pid 450] [client 172.17.0.1:35324] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:84\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 84
+[Thu Apr 28 03:15:51.979360 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:15:51.979677 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Stack trace:
+[Thu Apr 28 03:15:51.979936 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:15:51.980275 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:15:51.980515 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Stack trace:
+[Thu Apr 28 03:15:51.980810 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:15:51.981176 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:15:51.981420 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Stack trace:
+[Thu Apr 28 03:15:51.981760 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:15:51.982381 2022] [php:notice] [pid 452] [client 172.17.0.1:35332] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:16:58.553883 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:16:58.554160 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Stack trace:
+[Thu Apr 28 03:16:58.554406 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:16:58.554638 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:16:58.554867 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Stack trace:
+[Thu Apr 28 03:16:58.555091 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:16:58.555333 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:16:58.555533 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Stack trace:
+[Thu Apr 28 03:16:58.555757 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:16:58.555975 2022] [php:notice] [pid 448] [client 172.17.0.1:35344] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:17:10.721127 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:17:10.721413 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Stack trace:
+[Thu Apr 28 03:17:10.721658 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:17:10.721883 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:17:10.722142 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Stack trace:
+[Thu Apr 28 03:17:10.722353 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:17:10.722615 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:17:10.722803 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Stack trace:
+[Thu Apr 28 03:17:10.723059 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:17:10.723297 2022] [php:notice] [pid 449] [client 172.17.0.1:35340] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:17:36.996055 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:17:36.996743 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Stack trace:
+[Thu Apr 28 03:17:36.997383 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:17:36.997666 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:17:36.998470 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Stack trace:
+[Thu Apr 28 03:17:37.000678 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:17:37.000995 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:17:37.001280 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Stack trace:
+[Thu Apr 28 03:17:37.001707 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:17:37.002082 2022] [php:notice] [pid 450] [client 172.17.0.1:35348] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:21:44.089157 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:21:44.089390 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Stack trace:
+[Thu Apr 28 03:21:44.089571 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:21:44.089810 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:21:44.090077 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Stack trace:
+[Thu Apr 28 03:21:44.090397 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:21:44.090725 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:21:44.090995 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Stack trace:
+[Thu Apr 28 03:21:44.091290 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:21:44.091546 2022] [php:notice] [pid 452] [client 172.17.0.1:35356] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:21:51.026113 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:21:51.026374 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Stack trace:
+[Thu Apr 28 03:21:51.026560 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:21:51.026815 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:21:51.027009 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Stack trace:
+[Thu Apr 28 03:21:51.027275 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:21:51.027473 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:21:51.027726 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Stack trace:
+[Thu Apr 28 03:21:51.027978 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:21:51.028361 2022] [php:notice] [pid 827] [client 172.17.0.1:35360] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:22:24.130763 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Warning:  Undefined variable $conn in /app/index.php on line 62
+[Thu Apr 28 03:22:24.131209 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Stack trace:
+[Thu Apr 28 03:22:24.131558 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:22:24.131875 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Warning:  Attempt to read property "SELECT StoreID, Price, AlcID FROM Store_Bev" on null in /app/index.php on line 62
+[Thu Apr 28 03:22:24.132370 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Stack trace:
+[Thu Apr 28 03:22:24.132776 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:22:24.133122 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Warning:  Undefined variable $conn in /app/index.php on line 85
+[Thu Apr 28 03:22:24.133491 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Stack trace:
+[Thu Apr 28 03:22:24.133915 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:22:24.134226 2022] [php:notice] [pid 448] [client 172.17.0.1:35364] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /app/index.php:85\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 85
+[Thu Apr 28 03:24:00.433279 2022] [php:notice] [pid 450] [client 172.17.0.1:35376] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62
+[Thu Apr 28 03:24:00.433830 2022] [php:notice] [pid 450] [client 172.17.0.1:35376] PHP Stack trace:
+[Thu Apr 28 03:24:00.434193 2022] [php:notice] [pid 450] [client 172.17.0.1:35376] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:36:32.841778 2022] [php:notice] [pid 452] [client 172.17.0.1:35384] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/
+[Thu Apr 28 03:36:32.842259 2022] [php:notice] [pid 452] [client 172.17.0.1:35384] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:36:32.842644 2022] [php:notice] [pid 452] [client 172.17.0.1:35384] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:36:49.304687 2022] [php:notice] [pid 827] [client 172.17.0.1:35380] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/?
+[Thu Apr 28 03:36:49.305224 2022] [php:notice] [pid 827] [client 172.17.0.1:35380] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:36:49.305721 2022] [php:notice] [pid 827] [client 172.17.0.1:35380] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:37:55.468394 2022] [php:notice] [pid 449] [client 172.17.0.1:35392] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/?
+[Thu Apr 28 03:37:55.468837 2022] [php:notice] [pid 449] [client 172.17.0.1:35392] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:37:55.469260 2022] [php:notice] [pid 449] [client 172.17.0.1:35392] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:41:29.487913 2022] [php:notice] [pid 451] [client 172.17.0.1:35400] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/?
+[Thu Apr 28 03:41:29.488518 2022] [php:notice] [pid 451] [client 172.17.0.1:35400] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:41:29.488866 2022] [php:notice] [pid 451] [client 172.17.0.1:35400] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.132492 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.132924 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.133276 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.133735 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.134074 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.134445 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.134839 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.135172 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.135394 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.135768 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.136167 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.136484 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.136839 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.137134 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP Stack trace:, referer: http://localhost:81/?
+[Thu Apr 28 03:42:25.137494 2022] [php:notice] [pid 827] [client 172.17.0.1:35412] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/?
+[Thu Apr 28 03:47:21.570355 2022] [php:notice] [pid 449] [client 172.17.0.1:35416] PHP Parse error:  syntax error, unexpected variable "$moresql", expecting "," or ";" in /app/index.php on line 91, referer: http://localhost:81/?
+[Thu Apr 28 03:47:26.169098 2022] [php:notice] [pid 450] [client 172.17.0.1:35420] PHP Parse error:  syntax error, unexpected variable "$moresql", expecting "," or ";" in /app/index.php on line 91, referer: http://localhost:81/?
+[Thu Apr 28 03:47:30.286295 2022] [php:notice] [pid 451] [client 172.17.0.1:35424] PHP Parse error:  syntax error, unexpected variable "$moresql", expecting "," or ";" in /app/index.php on line 91
+[Thu Apr 28 03:48:47.802116 2022] [php:notice] [pid 827] [client 172.17.0.1:35432] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62
+[Thu Apr 28 03:48:47.802495 2022] [php:notice] [pid 827] [client 172.17.0.1:35432] PHP Stack trace:
+[Thu Apr 28 03:48:47.802713 2022] [php:notice] [pid 827] [client 172.17.0.1:35432] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:48:47.803575 2022] [php:notice] [pid 827] [client 172.17.0.1:35432] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:90\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 90
+[Thu Apr 28 03:48:50.219674 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.220256 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.220671 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.221300 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.221656 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.222037 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.222514 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.222928 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.223389 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.223767 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.224466 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.224830 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.225298 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.225840 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.226196 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:48:50.226614 2022] [php:notice] [pid 448] [client 172.17.0.1:35436] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:90\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 90, referer: http://localhost:81/
+[Thu Apr 28 03:48:57.626949 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.627400 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.627752 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.628238 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.628616 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.629150 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.629712 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.630167 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.630801 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.631399 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.631948 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.632393 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.633193 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.633606 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.634312 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:48:57.634931 2022] [php:notice] [pid 449] [client 172.17.0.1:35440] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:90\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 90, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.906579 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.906914 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.907140 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.907375 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.907586 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.907796 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.908004 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.908212 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.908418 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.908629 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.908835 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.909033 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.909267 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.909478 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.909680 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:49:29.910000 2022] [php:notice] [pid 450] [client 172.17.0.1:35444] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /app/index.php:91\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 91, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.549967 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.550274 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.550545 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.550797 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.551035 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.551273 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.551487 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.551716 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.551919 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.552131 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.552356 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.552558 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.552763 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.553219 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.553440 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:20.553938 2022] [php:notice] [pid 451] [client 172.17.0.1:35448] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:92\nStack trace:\n#0 /app/index.php(92): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 92, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.147312 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.147864 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.148087 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.148596 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.148907 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.149227 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.149727 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.150159 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.150542 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.150997 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.151382 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.151809 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.152160 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.152575 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.152864 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:50:25.153513 2022] [php:notice] [pid 452] [client 172.17.0.1:35452] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:92\nStack trace:\n#0 /app/index.php(92): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 92, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.630023 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.630567 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.630891 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.631200 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.631455 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.631757 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.632011 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.632306 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.632594 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.632860 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.633073 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.633346 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.633573 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.633837 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.634056 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:51:21.634432 2022] [php:notice] [pid 448] [client 172.17.0.1:35464] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:92\nStack trace:\n#0 /app/index.php(92): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 92, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.007586 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.008168 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.008688 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.009107 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.009565 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.010065 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.010443 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.010862 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.011235 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.011710 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.012163 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.012683 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.013069 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.013534 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.013929 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:15.014285 2022] [php:notice] [pid 450] [client 172.17.0.1:35472] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:92\nStack trace:\n#0 /app/index.php(92): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 92, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.803218 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.803891 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.804478 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.804787 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.805521 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.805787 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.806287 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.806706 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.807026 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.807433 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.807797 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.808107 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.808500 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.808890 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.809385 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:52:52.809864 2022] [php:notice] [pid 451] [client 172.17.0.1:35468] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:92\nStack trace:\n#0 /app/index.php(92): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 92, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.007247 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.009413 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.009800 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.010072 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.010324 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.010603 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.010864 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.011153 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.011468 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.011755 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.012024 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.012295 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.012797 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.013069 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.013339 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:00.013726 2022] [php:notice] [pid 452] [client 172.17.0.1:35476] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:92\nStack trace:\n#0 /app/index.php(92): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 92, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.266973 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.267352 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.267646 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.268023 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.268319 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.268645 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.268957 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.269257 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.269557 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.269856 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.270192 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.270554 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.270850 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.271231 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.271544 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:44.272028 2022] [php:notice] [pid 827] [client 172.17.0.1:35480] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:98\nStack trace:\n#0 /app/index.php(98): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 98, referer: http://localhost:81/index.php
+[Thu Apr 28 03:53:50.253531 2022] [php:notice] [pid 448] [client 172.17.0.1:35484] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62
+[Thu Apr 28 03:53:50.253909 2022] [php:notice] [pid 448] [client 172.17.0.1:35484] PHP Stack trace:
+[Thu Apr 28 03:53:50.254358 2022] [php:notice] [pid 448] [client 172.17.0.1:35484] PHP   1. {main}() /app/index.php:0
+[Thu Apr 28 03:53:50.254915 2022] [php:notice] [pid 448] [client 172.17.0.1:35484] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:98\nStack trace:\n#0 /app/index.php(98): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 98
+[Thu Apr 28 03:53:58.404786 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Warning:  Undefined property: mysqli::$SELECT StoreID, Price, AlcID FROM Store_Bev in /app/index.php on line 62, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.405265 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.405802 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.406199 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 69, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.406714 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.407141 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.407701 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Warning:  Undefined array key "price" in /app/index.php on line 70, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.408012 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.408312 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.408605 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 71, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.408952 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.409268 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.409628 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Warning:  Undefined array key "date" in /app/index.php on line 72, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.409880 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.410197 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:53:58.410582 2022] [php:notice] [pid 449] [client 172.17.0.1:35488] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:98\nStack trace:\n#0 /app/index.php(98): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 98, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.688787 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 66, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.689122 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.689375 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.689603 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Warning:  Undefined array key "price" in /app/index.php on line 67, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.689923 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.690142 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.690383 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 68, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.690723 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.690958 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.691279 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Warning:  Undefined array key "date" in /app/index.php on line 69, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.692189 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.692571 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 03:54:52.693567 2022] [php:notice] [pid 451] [client 172.17.0.1:35496] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95, referer: http://localhost:81/
+[Thu Apr 28 03:54:56.677746 2022] [php:notice] [pid 452] [client 172.17.0.1:35500] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95
+[Thu Apr 28 03:55:42.200100 2022] [php:notice] [pid 827] [client 172.17.0.1:35504] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95
+[Thu Apr 28 03:56:40.418431 2022] [php:notice] [pid 449] [client 172.17.0.1:35516] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95
+[Thu Apr 28 03:56:43.209081 2022] [php:notice] [pid 450] [client 172.17.0.1:35512] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95
+[Thu Apr 28 13:05:06.827294 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 66, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.828046 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.828358 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.828862 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Warning:  Undefined array key "price" in /app/index.php on line 67, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.829406 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.829812 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.830185 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 68, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.830707 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.831021 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.831355 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Warning:  Undefined array key "date" in /app/index.php on line 69, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.831611 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.832013 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:05:06.832695 2022] [php:notice] [pid 452] [client 172.17.0.1:35528] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.543775 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Warning:  Undefined array key "storeID" in /app/index.php on line 66, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.544219 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.544637 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.545011 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Warning:  Undefined array key "price" in /app/index.php on line 67, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.545460 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.545793 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.546358 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Warning:  Undefined array key "alcoholID" in /app/index.php on line 68, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.546697 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.547055 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.547401 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Warning:  Undefined array key "date" in /app/index.php on line 69, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.547781 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Stack trace:, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.548074 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP   1. {main}() /app/index.php:0, referer: http://localhost:81/
+[Thu Apr 28 13:09:13.548680 2022] [php:notice] [pid 448] [client 172.17.0.1:35532] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95, referer: http://localhost:81/
+[Thu Apr 28 13:09:18.223005 2022] [php:notice] [pid 449] [client 172.17.0.1:35536] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:95\nStack trace:\n#0 /app/index.php(95): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 95
+[Thu Apr 28 13:09:56.559149 2022] [php:notice] [pid 450] [client 172.17.0.1:35544] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:93\nStack trace:\n#0 /app/index.php(93): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 93
+[Thu Apr 28 13:10:00.575566 2022] [php:notice] [pid 451] [client 172.17.0.1:35540] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:93\nStack trace:\n#0 /app/index.php(93): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 93
+[Thu Apr 28 13:10:02.265477 2022] [php:notice] [pid 452] [client 172.17.0.1:35548] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/index.php:93\nStack trace:\n#0 /app/index.php(93): mysqli->query()\n#1 {main}\n  thrown in /app/index.php on line 93
