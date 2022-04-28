@@ -1,4 +1,4 @@
--- admin  JUDrFc6Cmv5M
+-- admin  JUDrFc6Cmv5M     PAehcD0Za9fW
 CREATE DATABASE IF NOT EXISTS boozebuddy;
 USE boozebuddy;
 
@@ -22,6 +22,7 @@ INSERT INTO Alcohol VALUES(103, 'Yuengling', 5.4, 'Lager', 'America');
 INSERT INTO Alcohol VALUES(104, 'Miller Lite', 4.2, 'Lite Lager', 'America');
 
 -- Table Store
+DROP TABLE IF EXISTS store;
 CREATE TABLE Store
 (
 	StoreID int NOT NULL AUTO_INCREMENT,
