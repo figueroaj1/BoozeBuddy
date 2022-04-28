@@ -23,9 +23,8 @@
                     $dbh = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
                     echo 'here is something';
                     $conn = new mysqli($host, $user, $password, $dbname);
-            
-<<<<<<< HEAD
-    </body>
+                }
+            ?>
     <?php
         //Connect to database          
         $host = "localhost";
@@ -83,12 +82,11 @@
             
                 if (empty($alcoholID) || empty($storeID) || empty($price)) {
                     echo "data is empty";
-=======
+
                 } catch (PDOException $e) {
                     echo 'Connection failed: ' . $e->getMessage();
                 }
                 //change these to reflect actual data
-<<<<<<< HEAD
                 // $sqlquery = "INSERT INTO Alcohol VALUES ( 10, 'Miller Lite2', 4, 'Lite Lager YEET', 'America Y NOT')";
                 // echo 'before if statement';
                 // if ($conn->query($sqlquery) === TRUE) {
@@ -96,16 +94,10 @@
                 // } else {
                 //     echo "Error: " . $sql . "<br>" . $conn->error;
                 // }
-=======
-                $sqlquery = "INSERT INTO Alcohol VALUES ( 105, 'Miller Lite2', 4, 'Lite Lager YEET', 'America Y NOT')";
-                echo 'before if statement';
-                if ($conn->query($sqlquery) === TRUE) {
-                    echo "record inserted successfully";
->>>>>>> 37ebf33e9131b57eb2e7bb2f6bb4aa0d8f23acee
                 } else {
                     echo "Error: " . $sql . "<br>" . $conn->error;
                 }
->>>>>>> 305908f7f79d4c0c8280e81a026681feac2dd837
+
             ?>
         
             <h2> Please enter information </h2>
