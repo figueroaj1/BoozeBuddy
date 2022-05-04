@@ -14,7 +14,7 @@
             <?php
                 //Connect to database          
                 $host = "localhost";
-                $port = 3306;
+                $port = 3307;
                 $socket = "";
                 $user = "root";
                 $password = "";
@@ -37,9 +37,10 @@
                 $select = "SELECT * FROM Alcohol INNER JOIN Store_Bev ON Alcohol.AlcID = Store_Bev.AlcID ;";
                 $result = $dbh->query($select);
                 echo "<table>";
+                echo "<tr><td>". "Drink Name | ". "</td><td>". "Price | ". "</td><td>". "Origin". "</td>" ;
                 while($row = $result->fetch(PDO::FETCH_ASSOC))
                 {
-                    echo "<tr><td>" . htmlspecialchars($row['DrinkName']) . "</td><td>" .  htmlspecialchars($row['Price']) . "</td><td>" . htmlspecialchars($row['COI']) . "</td><td>";
+                    echo "<tr><td>" . htmlspecialchars($row['DrinkName']) . "</td><td>" .  "$".htmlspecialchars($row['Price']) . "</td><td>" . htmlspecialchars($row['COI']) . "</td></tr>";
                 }
                 echo "</table>";
             ?>

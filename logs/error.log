@@ -910,3 +910,35 @@
 [Wed May 04 01:40:38.351293 2022] [php:notice] [pid 136] [client 172.17.0.1:54608] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
 [Wed May 04 01:40:38.351848 2022] [php:notice] [pid 136] [client 172.17.0.1:54608] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /app/add.php:82\nStack trace:\n#0 /app/add.php(82): mysqli->query()\n#1 {main}\n  thrown in /app/add.php on line 82, referer: http://localhost:81/add.php
 [Wed May 04 01:41:24.934537 2022] [mpm_prefork:notice] [pid 29] AH00169: caught SIGTERM, shutting down
+[Wed May 04 17:20:02.540043 2022] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed May 04 17:20:02.541578 2022] [core:notice] [pid 30] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed May 04 17:39:44.571651 2022] [mpm_prefork:notice] [pid 30] AH00169: caught SIGTERM, shutting down
+[Wed May 04 17:47:13.835099 2022] [mpm_prefork:notice] [pid 445] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed May 04 17:47:13.835562 2022] [core:notice] [pid 445] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed May 04 17:53:09.243520 2022] [php:notice] [pid 447] [client 172.17.0.1:35290] PHP Warning:  Undefined variable $dbh in /app/index.php on line 38
+[Wed May 04 17:53:09.243866 2022] [php:notice] [pid 447] [client 172.17.0.1:35290] PHP Stack trace:
+[Wed May 04 17:53:09.244098 2022] [php:notice] [pid 447] [client 172.17.0.1:35290] PHP   1. {main}() /app/index.php:0
+[Wed May 04 17:53:09.244354 2022] [php:notice] [pid 447] [client 172.17.0.1:35290] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:38\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 38
+[Wed May 04 17:53:21.050543 2022] [php:notice] [pid 449] [client 172.17.0.1:35298] PHP Warning:  Undefined variable $dbh in /app/index.php on line 38
+[Wed May 04 17:53:21.051053 2022] [php:notice] [pid 449] [client 172.17.0.1:35298] PHP Stack trace:
+[Wed May 04 17:53:21.051516 2022] [php:notice] [pid 449] [client 172.17.0.1:35298] PHP   1. {main}() /app/index.php:0
+[Wed May 04 17:53:21.052046 2022] [php:notice] [pid 449] [client 172.17.0.1:35298] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:38\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 38
+[Wed May 04 17:54:45.727998 2022] [php:notice] [pid 451] [client 172.17.0.1:35306] PHP Warning:  Undefined variable $dbh in /app/index.php on line 38
+[Wed May 04 17:54:45.728487 2022] [php:notice] [pid 451] [client 172.17.0.1:35306] PHP Stack trace:
+[Wed May 04 17:54:45.728799 2022] [php:notice] [pid 451] [client 172.17.0.1:35306] PHP   1. {main}() /app/index.php:0
+[Wed May 04 17:54:45.729210 2022] [php:notice] [pid 451] [client 172.17.0.1:35306] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:38\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 38
+[Wed May 04 17:54:49.220402 2022] [php:notice] [pid 447] [client 172.17.0.1:35310] PHP Warning:  Undefined variable $dbh in /app/index.php on line 38
+[Wed May 04 17:54:49.220837 2022] [php:notice] [pid 447] [client 172.17.0.1:35310] PHP Stack trace:
+[Wed May 04 17:54:49.221285 2022] [php:notice] [pid 447] [client 172.17.0.1:35310] PHP   1. {main}() /app/index.php:0
+[Wed May 04 17:54:49.221774 2022] [php:notice] [pid 447] [client 172.17.0.1:35310] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:38\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 38
+[Wed May 04 17:55:04.879206 2022] [php:notice] [pid 828] [client 172.17.0.1:35314] PHP Warning:  Undefined variable $dbh in /app/index.php on line 38
+[Wed May 04 17:55:04.879597 2022] [php:notice] [pid 828] [client 172.17.0.1:35314] PHP Stack trace:
+[Wed May 04 17:55:04.879841 2022] [php:notice] [pid 828] [client 172.17.0.1:35314] PHP   1. {main}() /app/index.php:0
+[Wed May 04 17:55:04.880103 2022] [php:notice] [pid 828] [client 172.17.0.1:35314] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:38\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 38
+[Wed May 04 17:55:12.908968 2022] [php:notice] [pid 448] [client 172.17.0.1:35330] PHP Warning:  Undefined variable $dbh in /app/index.php on line 38
+[Wed May 04 17:55:12.909336 2022] [php:notice] [pid 448] [client 172.17.0.1:35330] PHP Stack trace:
+[Wed May 04 17:55:12.909663 2022] [php:notice] [pid 448] [client 172.17.0.1:35330] PHP   1. {main}() /app/index.php:0
+[Wed May 04 17:55:12.910090 2022] [php:notice] [pid 448] [client 172.17.0.1:35330] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:38\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 38
+[Wed May 04 17:55:59.229613 2022] [php:notice] [pid 450] [client 172.17.0.1:35338] PHP Parse error:  syntax error, unexpected token "echo" in /app/add.php on line 64, referer: http://localhost:81/
+[Wed May 04 18:08:50.342636 2022] [php:notice] [pid 447] [client 172.17.0.1:35404] PHP Parse error:  syntax error, unexpected token "echo" in /app/add.php on line 64, referer: http://localhost:81/
+[Wed May 04 18:12:22.485961 2022] [php:notice] [pid 448] [client 172.17.0.1:35412] PHP Parse error:  syntax error, unexpected token "echo" in /app/add.php on line 64, referer: http://localhost:81/

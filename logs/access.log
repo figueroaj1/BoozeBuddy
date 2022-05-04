@@ -240,3 +240,7 @@
 172.17.0.1 - - [04/May/2022:01:40:11 +0000] "GET / HTTP/1.1" 200 558 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 172.17.0.1 - - [04/May/2022:01:40:13 +0000] "GET /add.php HTTP/1.1" 500 1316 "http://localhost:81/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 172.17.0.1 - - [04/May/2022:01:40:38 +0000] "POST /add.php HTTP/1.1" 500 1316 "http://localhost:81/add.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+172.17.0.1 - - [04/May/2022:17:53:09 +0000] "GET / HTTP/1.1" 500 642 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+172.17.0.1 - - [04/May/2022:17:53:09 +0000] "GET /styles.css HTTP/1.1" 200 781 "http://localhost:81/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+172.17.0.1 - - [04/May/2022:17:53:09 +0000] "GET /favicon.ico HTTP/1.1" 404 487 "http://localhost:81/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+172.17.0.1 - - [04/May/2022:17:53:21 +0000] "GET / HTTP/1.1" 500 642 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"

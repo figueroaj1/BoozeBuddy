@@ -1,4 +1,4 @@
--- admin  ZnkEn0JQqGW1    PAehcD0Za9fW
+-- admin  ZnkEn0JQqGW1    PAehcD0Za9fW	ncUobwmqwdL0
 CREATE DATABASE IF NOT EXISTS boozebuddy;
 USE boozebuddy;
 

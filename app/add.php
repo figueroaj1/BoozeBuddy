@@ -14,7 +14,7 @@
             <?php
                 //Connect to database          
                 $host = "localhost";
-                $port = 3306;
+                $port = 3307;
                 $socket = "";
                 $user = "root";
                 $password = "";
@@ -49,31 +49,26 @@
             </form>
 
             <?php
-                    // collect value of input field
-                    $StoreID = $_REQUEST['StoreID'];
-                    $Price = $_REQUEST['Price'];
-                    $AlcID = $_REQUEST['AlcID'];
+                // collect value of input field
+                $StoreID = $_REQUEST['StoreID'];
+                $Price = $_REQUEST['Price'];
+                $AlcID = $_REQUEST['AlcID'];
 
-                    $EnterStoreID = $_POST['$StoreID'];
-                    $EnterPrice = $_POST['$Price'];
-                    $EnterAlcID = $_POST['$AlcID'];
+                $EnterStoreID = $_POST['StoreID'];
+                $EnterPrice = $_POST['Price'];
+                $EnterAlcID = $_POST['AlcID'];
 
-                    $sql = "INSERT INTO Store_Bev (StoreID) VALUES ('$EnterStoreID')"; 
-                
-                    if (empty($AlcID) || empty($StoreID) || empty($Price)) {
-                        echo "data is empty<br>";
+                $sql = "INSERT INTO Store_Bev (StoreID) VALUES ('$EnterStoreID')"; 
+                // $result = $dbh->
+                if (empty($AlcID) || empty($StoreID) || empty($Price)) {
+                    echo "data is empty<br>";
+                } else {
+                    if($conn->query($sql) ===TRUE) {
+                        echo "Records entered succesfully";
                     } else {
-                        if($conn->query($sql) ===TRUE) {
-                            echo "Records entered succesfully";
-                        } else {
-                            echo "ERROR: " . $sql . "<br>" . $conn->error;
-                        }
+                        echo "ERROR: " . $sql . "<br>" . $conn->error;
                     }
-                
-
-                // Closing the connection.
-                $conn->close();
-
+                }
             ?>
    
             <?php
@@ -83,14 +78,13 @@
                 
                 if ($result->num_rows > 0) {
                   // output data of each row
-                  while($row = $result->fetch_assoc()) {
-                    echo "id: " . $row["storeID"]. " - Name: " . $row["price"]. " " . $row["alcID"]. "<br>";
+                  while($row = $result->fetch_assoc(PDO::FETCH_ASSOC)) {
+                    echo "<tr><td>" . htmlspecialchars($row["storeID"]) . "</td><td>" . $row["price"]. " " . $row["alcID"]. "<br>";
                   }
                 } else {
                   echo "0 results";
                 }
 
-                $sql = "SELECT * FROM Alcohol";
             ?>
        
         </main>
