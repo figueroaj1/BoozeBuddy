@@ -942,3 +942,22 @@
 [Wed May 04 17:55:59.229613 2022] [php:notice] [pid 450] [client 172.17.0.1:35338] PHP Parse error:  syntax error, unexpected token "echo" in /app/add.php on line 64, referer: http://localhost:81/
 [Wed May 04 18:08:50.342636 2022] [php:notice] [pid 447] [client 172.17.0.1:35404] PHP Parse error:  syntax error, unexpected token "echo" in /app/add.php on line 64, referer: http://localhost:81/
 [Wed May 04 18:12:22.485961 2022] [php:notice] [pid 448] [client 172.17.0.1:35412] PHP Parse error:  syntax error, unexpected token "echo" in /app/add.php on line 64, referer: http://localhost:81/
+[Wed May 04 18:13:16.611975 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 53, referer: http://localhost:81/
+[Wed May 04 18:13:16.612374 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:13:16.612805 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:13:16.613153 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/
+[Wed May 04 18:13:16.613490 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:13:16.613864 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:13:16.614162 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 55, referer: http://localhost:81/
+[Wed May 04 18:13:16.614397 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:13:16.614605 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:13:16.614924 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 57, referer: http://localhost:81/
+[Wed May 04 18:13:16.615192 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:13:16.615600 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:13:16.616003 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Warning:  Undefined array key "Price" in /app/add.php on line 58, referer: http://localhost:81/
+[Wed May 04 18:13:16.616279 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:13:16.616524 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:13:16.616928 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 59, referer: http://localhost:81/
+[Wed May 04 18:13:16.617265 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:13:16.617560 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:13:16.621077 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:81\nStack trace:\n#0 /app/add.php(81): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 81, referer: http://localhost:81/
