@@ -961,3 +961,873 @@
 [Wed May 04 18:13:16.617265 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Stack trace:, referer: http://localhost:81/
 [Wed May 04 18:13:16.617560 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
 [Wed May 04 18:13:16.621077 2022] [php:notice] [pid 450] [client 172.17.0.1:35424] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:81\nStack trace:\n#0 /app/add.php(81): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 81, referer: http://localhost:81/
+[Wed May 04 18:14:56.041462 2022] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed May 04 18:14:56.041907 2022] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed May 04 18:16:30.681969 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 53, referer: http://localhost:81/
+[Wed May 04 18:16:30.682710 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:16:30.683054 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:16:30.683237 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/
+[Wed May 04 18:16:30.683434 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:16:30.683607 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:16:30.683826 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 55, referer: http://localhost:81/
+[Wed May 04 18:16:30.684116 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:16:30.684308 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:16:30.684472 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 57, referer: http://localhost:81/
+[Wed May 04 18:16:30.684661 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:16:30.684845 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:16:30.685130 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Warning:  Undefined array key "Price" in /app/add.php on line 58, referer: http://localhost:81/
+[Wed May 04 18:16:30.685306 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:16:30.685527 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:16:30.685726 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 59, referer: http://localhost:81/
+[Wed May 04 18:16:30.685895 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:16:30.686177 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:16:30.688072 2022] [php:notice] [pid 33] [client 172.17.0.1:54808] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:81\nStack trace:\n#0 /app/add.php(81): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 81, referer: http://localhost:81/
+[Wed May 04 18:17:20.634020 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 53, referer: http://localhost:81/
+[Wed May 04 18:17:20.634436 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:17:20.634724 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:17:20.634993 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/
+[Wed May 04 18:17:20.635211 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:17:20.635474 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:17:20.635890 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 55, referer: http://localhost:81/
+[Wed May 04 18:17:20.636099 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:17:20.636376 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:17:20.636622 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 57, referer: http://localhost:81/
+[Wed May 04 18:17:20.636861 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:17:20.637276 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:17:20.637676 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Warning:  Undefined array key "Price" in /app/add.php on line 58, referer: http://localhost:81/
+[Wed May 04 18:17:20.638173 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:17:20.638635 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:17:20.638883 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 59, referer: http://localhost:81/
+[Wed May 04 18:17:20.639591 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 18:17:20.639921 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 18:17:20.641519 2022] [php:notice] [pid 34] [client 172.17.0.1:54810] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:81\nStack trace:\n#0 /app/add.php(81): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 81, referer: http://localhost:81/
+[Wed May 04 18:21:09.419946 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.420271 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.420456 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.420678 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.420945 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.421183 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.421348 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.421547 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.421717 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.421987 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Warning:  Undefined array key "StoreID" in /app/add.php on line 57, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.422159 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.422349 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.422504 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Warning:  Undefined array key "Price" in /app/add.php on line 58, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.422691 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.422949 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.423152 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Warning:  Undefined array key "AlcID" in /app/add.php on line 59, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.423287 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.423454 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:21:09.425486 2022] [php:notice] [pid 412] [client 172.17.0.1:54820] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:81\nStack trace:\n#0 /app/add.php(81): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 81, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.332301 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.332691 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.333038 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.333330 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.333906 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.334212 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.334511 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.334827 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.335137 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:30:27.339035 2022] [php:notice] [pid 32] [client 172.17.0.1:54826] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:92\nStack trace:\n#0 /app/add.php(92): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 92, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.478639 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.478846 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.479120 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.479307 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.479468 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.479622 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.479845 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.480097 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.480255 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:30:41.481771 2022] [php:notice] [pid 33] [client 172.17.0.1:54830] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:92\nStack trace:\n#0 /app/add.php(92): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 92, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.488808 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.489027 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.489287 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.489465 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.489647 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.489881 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.490153 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.490703 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.491548 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:31:58.493598 2022] [php:notice] [pid 412] [client 172.17.0.1:54846] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:93\nStack trace:\n#0 /app/add.php(93): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 93, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.194603 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.195149 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.195406 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.195764 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.195974 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.196175 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.196375 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.196567 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.196848 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:32:12.198652 2022] [php:notice] [pid 31] [client 172.17.0.1:54844] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:93\nStack trace:\n#0 /app/add.php(93): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 93, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.164498 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.164887 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.165339 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.165620 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.165827 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.166098 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.166380 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.166780 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.167253 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:32:21.169301 2022] [php:notice] [pid 32] [client 172.17.0.1:54850] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:93\nStack trace:\n#0 /app/add.php(93): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 93, referer: http://localhost:81/add.php
+[Wed May 04 18:32:57.475029 2022] [php:notice] [pid 413] [client 172.17.0.1:54858] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:93\nStack trace:\n#0 /app/add.php(93): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 93, referer: http://localhost:81/index.php
+[Wed May 04 18:33:36.824557 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 53, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.824960 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.825411 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.826130 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Warning:  Undefined array key "Price" in /app/add.php on line 54, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.826329 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.826533 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.826875 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 55, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.827087 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.827294 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 18:33:36.827781 2022] [php:notice] [pid 34] [client 172.17.0.1:54862] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:93\nStack trace:\n#0 /app/add.php(93): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 93, referer: http://localhost:81/add.php
+[Wed May 04 18:44:26.539959 2022] [php:notice] [pid 32] [client 172.17.0.1:54882] PHP Parse error:  syntax error, unexpected variable "$sql" in /app/add.php on line 59, referer: http://localhost:81/
+[Wed May 04 18:45:58.978731 2022] [php:notice] [pid 413] [client 172.17.0.1:54890] PHP Parse error:  syntax error, unexpected token "if" in /app/add.php on line 60, referer: http://localhost:81/
+[Wed May 04 18:46:02.796452 2022] [php:notice] [pid 34] [client 172.17.0.1:54888] PHP Parse error:  syntax error, unexpected token "if" in /app/add.php on line 60, referer: http://localhost:81/
+[Wed May 04 18:47:06.005736 2022] [php:notice] [pid 412] [client 172.17.0.1:54898] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:99\nStack trace:\n#0 /app/add.php(99): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 99, referer: http://localhost:81/
+[Wed May 04 18:47:14.035129 2022] [php:notice] [pid 31] [client 172.17.0.1:54902] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:99\nStack trace:\n#0 /app/add.php(99): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 99, referer: http://localhost:81/add.php
+[Wed May 04 18:47:34.408853 2022] [php:notice] [pid 32] [client 172.17.0.1:54906] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:99\nStack trace:\n#0 /app/add.php(99): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 99, referer: http://localhost:81/add.php
+[Wed May 04 18:52:25.855815 2022] [php:notice] [pid 413] [client 172.17.0.1:54914] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /app/add.php:61\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 61, referer: http://localhost:81/add.php
+[Wed May 04 18:52:36.179483 2022] [php:notice] [pid 34] [client 172.17.0.1:54918] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /app/add.php:61\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 61, referer: http://localhost:81/add.php
+[Wed May 04 18:53:21.918061 2022] [php:notice] [pid 35] [client 172.17.0.1:54922] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /app/add.php:61\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 61, referer: http://localhost:81/add.php
+[Wed May 04 18:53:28.059562 2022] [php:notice] [pid 412] [client 172.17.0.1:54926] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /app/add.php:61\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 61, referer: http://localhost:81/add.php
+[Wed May 04 18:54:37.402213 2022] [php:notice] [pid 32] [client 172.17.0.1:54934] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:98\nStack trace:\n#0 /app/add.php(98): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 98, referer: http://localhost:81/add.php
+[Wed May 04 19:04:31.769941 2022] [php:notice] [pid 34] [client 172.17.0.1:54948] PHP Fatal error:  Uncaught Error: Call to undefined function refresh() in /app/index.php:36\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 36, referer: http://localhost:81/add.php
+[Wed May 04 19:04:34.370432 2022] [php:notice] [pid 35] [client 172.17.0.1:54950] PHP Fatal error:  Uncaught Error: Call to undefined function refresh() in /app/index.php:36\nStack trace:\n#0 {main}\n  thrown in /app/index.php on line 36, referer: http://localhost:81/add.php
+[Wed May 04 19:07:46.534688 2022] [php:notice] [pid 33] [client 172.17.0.1:54966] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:103\nStack trace:\n#0 /app/add.php(103): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 103, referer: http://localhost:81/index.php
+[Wed May 04 19:08:06.421349 2022] [php:notice] [pid 413] [client 172.17.0.1:54970] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:103\nStack trace:\n#0 /app/add.php(103): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 103, referer: http://localhost:81/add.php
+[Wed May 04 19:20:53.014566 2022] [php:notice] [pid 412] [client 172.17.0.1:54982] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:103\nStack trace:\n#0 /app/add.php(103): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 103, referer: http://localhost:81/index.php
+[Wed May 04 19:21:02.271695 2022] [php:notice] [pid 31] [client 172.17.0.1:54986] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:103\nStack trace:\n#0 /app/add.php(103): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 103, referer: http://localhost:81/add.php
+[Wed May 04 19:28:25.308071 2022] [php:notice] [pid 34] [client 172.17.0.1:55002] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:111\nStack trace:\n#0 /app/add.php(111): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 111, referer: http://localhost:81/index.php
+[Wed May 04 19:28:34.921048 2022] [php:notice] [pid 35] [client 172.17.0.1:55006] PHP Warning:  Undefined variable $statement in /app/add.php on line 64, referer: http://localhost:81/add.php
+[Wed May 04 19:28:34.921316 2022] [php:notice] [pid 35] [client 172.17.0.1:55006] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:28:34.921601 2022] [php:notice] [pid 35] [client 172.17.0.1:55006] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:28:34.921903 2022] [php:notice] [pid 35] [client 172.17.0.1:55006] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /app/add.php:64\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 64, referer: http://localhost:81/add.php
+[Wed May 04 19:29:08.065955 2022] [php:notice] [pid 412] [client 172.17.0.1:55010] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:111\nStack trace:\n#0 /app/add.php(111): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 111, referer: http://localhost:81/index.php
+[Wed May 04 19:29:17.837536 2022] [php:notice] [pid 31] [client 172.17.0.1:55014] PHP Warning:  Undefined variable $statement in /app/add.php on line 66, referer: http://localhost:81/add.php
+[Wed May 04 19:29:17.838258 2022] [php:notice] [pid 31] [client 172.17.0.1:55014] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:29:17.838575 2022] [php:notice] [pid 31] [client 172.17.0.1:55014] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:29:17.838898 2022] [php:notice] [pid 31] [client 172.17.0.1:55014] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /app/add.php:66\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 66, referer: http://localhost:81/add.php
+[Wed May 04 19:31:44.231741 2022] [php:notice] [pid 413] [client 172.17.0.1:55030] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:123\nStack trace:\n#0 /app/add.php(123): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 123, referer: http://localhost:81/index.php
+[Wed May 04 19:31:52.303480 2022] [php:notice] [pid 34] [client 172.17.0.1:55028] PHP Warning:  Undefined variable $statement in /app/add.php on line 66, referer: http://localhost:81/add.php
+[Wed May 04 19:31:52.304515 2022] [php:notice] [pid 34] [client 172.17.0.1:55028] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:31:52.304928 2022] [php:notice] [pid 34] [client 172.17.0.1:55028] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:31:52.305180 2022] [php:notice] [pid 34] [client 172.17.0.1:55028] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in /app/add.php:66\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 66, referer: http://localhost:81/add.php
+[Wed May 04 19:44:41.321037 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:44:41.321408 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:44:41.321814 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:44:41.322322 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:44:41.322766 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:44:41.323090 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:44:41.324345 2022] [php:notice] [pid 31] [client 172.17.0.1:55046] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:131\nStack trace:\n#0 /app/add.php(131): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 131, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.085848 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.086195 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.086470 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.086763 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.087023 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.087300 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:45:23.088147 2022] [php:notice] [pid 32] [client 172.17.0.1:55048] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:131\nStack trace:\n#0 /app/add.php(131): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 131, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.294102 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP Warning:  Undefined variable $StoreName in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.294483 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.294881 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.295213 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.295538 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.295961 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:45:51.296765 2022] [php:notice] [pid 33] [client 172.17.0.1:55052] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:131\nStack trace:\n#0 /app/add.php(131): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 131, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.648219 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP Warning:  Undefined variable $StoreName in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.648567 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.648797 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.649048 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 38, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.649318 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.649836 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:46:08.650981 2022] [php:notice] [pid 413] [client 172.17.0.1:55056] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:131\nStack trace:\n#0 /app/add.php(131): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 131, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.597382 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP Warning:  Undefined variable $StoreName in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.597712 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.598179 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.598529 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.598804 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.599246 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:49:29.600467 2022] [php:notice] [pid 35] [client 172.17.0.1:55064] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:132\nStack trace:\n#0 /app/add.php(132): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 132, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.597044 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.597349 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.597871 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.598424 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.599160 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.599535 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:50:27.600298 2022] [php:notice] [pid 31] [client 172.17.0.1:55072] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:132\nStack trace:\n#0 /app/add.php(132): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 132, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.318438 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.319122 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.319446 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.319716 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.319922 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.320197 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:10.321133 2022] [php:notice] [pid 32] [client 172.17.0.1:55076] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:132\nStack trace:\n#0 /app/add.php(132): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 132, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.627394 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.627797 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.628237 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.628775 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.629067 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.629350 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:11.630325 2022] [php:notice] [pid 33] [client 172.17.0.1:55080] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:132\nStack trace:\n#0 /app/add.php(132): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 132, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.409275 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.409803 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.410199 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.410960 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.411396 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.411707 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:19.412508 2022] [php:notice] [pid 413] [client 172.17.0.1:55084] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:132\nStack trace:\n#0 /app/add.php(132): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 132, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.868562 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP Warning:  Undefined variable $StoreNames in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.868877 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.869163 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.869423 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP Warning:  foreach() argument must be of type array|object, null given in /app/add.php on line 82, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.869724 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.869973 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:51:23.870724 2022] [php:notice] [pid 34] [client 172.17.0.1:55088] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:132\nStack trace:\n#0 /app/add.php(132): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 132, referer: http://localhost:81/index.php
+[Wed May 04 19:52:10.547223 2022] [php:notice] [pid 35] [client 172.17.0.1:55092] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:126\nStack trace:\n#0 /app/add.php(126): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 126, referer: http://localhost:81/index.php
+[Wed May 04 19:52:20.844373 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Warning:  Array to string conversion in /app/add.php on line 43, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.844691 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.844945 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.845195 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Warning:  Undefined variable $Array in /app/add.php on line 43, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.845561 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.846127 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.846958 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Warning:  Trying to access array offset on value of type null in /app/add.php on line 43, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.847320 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.847702 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:52:20.848566 2022] [php:notice] [pid 412] [client 172.17.0.1:55096] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_result::fetch_assoc() expects exactly 0 arguments, 1 given in /app/add.php:126\nStack trace:\n#0 /app/add.php(126): mysqli_result->fetch_assoc()\n#1 {main}\n  thrown in /app/add.php on line 126, referer: http://localhost:81/add.php
+[Wed May 04 19:57:38.341355 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 39, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.342003 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.342527 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.342932 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "COI" in /app/add.php on line 40, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.343352 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.343899 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.344415 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "Price" in /app/add.php on line 41, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.344987 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.345242 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.345516 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 42, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.345712 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:38.345961 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.781998 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 39, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.782395 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.782584 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.782825 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "COI" in /app/add.php on line 40, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.782995 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.783192 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.783492 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "Price" in /app/add.php on line 41, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.783671 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.783893 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.784114 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 42, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.784374 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 19:57:40.784726 2022] [php:notice] [pid 32] [client 172.17.0.1:55132] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 19:57:48.267913 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 39, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.268535 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.268897 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.269189 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "COI" in /app/add.php on line 40, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.269440 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.269612 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.269815 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "Price" in /app/add.php on line 41, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.270018 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.270233 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.270447 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 42, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.270639 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:57:48.270819 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:57:50.938108 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 39
+[Wed May 04 19:57:50.938421 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:
+[Wed May 04 19:57:50.938786 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0
+[Wed May 04 19:57:50.939153 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "COI" in /app/add.php on line 40
+[Wed May 04 19:57:50.939655 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:
+[Wed May 04 19:57:50.940101 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0
+[Wed May 04 19:57:50.940616 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "Price" in /app/add.php on line 41
+[Wed May 04 19:57:50.941026 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:
+[Wed May 04 19:57:50.941232 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0
+[Wed May 04 19:57:50.941464 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 42
+[Wed May 04 19:57:50.941662 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP Stack trace:
+[Wed May 04 19:57:50.941877 2022] [php:notice] [pid 33] [client 172.17.0.1:55136] PHP   1. {main}() /app/add.php:0
+[Wed May 04 19:59:07.127263 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 39, referer: http://localhost:81/
+[Wed May 04 19:59:07.127783 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 19:59:07.128306 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 19:59:07.128863 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Warning:  Undefined array key "COI" in /app/add.php on line 40, referer: http://localhost:81/
+[Wed May 04 19:59:07.129271 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 19:59:07.129531 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 19:59:07.129741 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Warning:  Undefined array key "Price" in /app/add.php on line 41, referer: http://localhost:81/
+[Wed May 04 19:59:07.129930 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 19:59:07.130110 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 19:59:07.130298 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 42, referer: http://localhost:81/
+[Wed May 04 19:59:07.130471 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 19:59:07.130658 2022] [php:notice] [pid 34] [client 172.17.0.1:55144] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 19:59:16.755371 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 39, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.756092 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.756606 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.756926 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Warning:  Undefined array key "COI" in /app/add.php on line 40, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.757292 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.757552 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.757806 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Warning:  Undefined array key "Price" in /app/add.php on line 41, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.757995 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.758238 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.758671 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 42, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.758974 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP Stack trace:, referer: http://localhost:81/add.php
+[Wed May 04 19:59:16.759250 2022] [php:notice] [pid 35] [client 172.17.0.1:55148] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.php
+[Wed May 04 20:06:08.477097 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 58, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.477496 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.477806 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.478170 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Warning:  Undefined array key "COI" in /app/add.php on line 59, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.478418 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.478623 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.478792 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Warning:  Undefined array key "Price" in /app/add.php on line 60, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.478989 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.479150 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.479346 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 61, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.479503 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:06:08.479698 2022] [php:notice] [pid 33] [client 172.17.0.1:55168] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.196250 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 58, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.196523 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.196700 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.196865 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Warning:  Undefined array key "COI" in /app/add.php on line 59, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197119 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197265 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197413 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Warning:  Undefined array key "Price" in /app/add.php on line 60, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197555 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197703 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197851 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 61, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.197996 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:07:22.198227 2022] [php:notice] [pid 34] [client 172.17.0.1:55174] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.713403 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 58, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.713639 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.713835 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.714048 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Warning:  Undefined array key "COI" in /app/add.php on line 59, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.714244 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.714443 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.714603 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Warning:  Undefined array key "Price" in /app/add.php on line 60, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.714799 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.714967 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.715162 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 61, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.715341 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:11:40.715524 2022] [php:notice] [pid 412] [client 172.17.0.1:55180] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:13:54.436656 2022] [php:notice] [pid 33] [client 172.17.0.1:55194] PHP Fatal error:  Uncaught Error: Call to undefined function odbc_exec() in /app/add.php:64\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 64, referer: http://localhost:81/add.php
+[Wed May 04 20:13:59.555561 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 58, referer: http://localhost:81/
+[Wed May 04 20:13:59.555797 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 20:13:59.556014 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 20:13:59.556241 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Warning:  Undefined array key "COI" in /app/add.php on line 59, referer: http://localhost:81/
+[Wed May 04 20:13:59.556415 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 20:13:59.556595 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 20:13:59.556873 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Warning:  Undefined array key "Price" in /app/add.php on line 60, referer: http://localhost:81/
+[Wed May 04 20:13:59.557055 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 20:13:59.557245 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 20:13:59.557474 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 61, referer: http://localhost:81/
+[Wed May 04 20:13:59.557669 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Stack trace:, referer: http://localhost:81/
+[Wed May 04 20:13:59.557958 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/
+[Wed May 04 20:13:59.558200 2022] [php:notice] [pid 413] [client 172.17.0.1:55196] PHP Fatal error:  Uncaught Error: Call to undefined function odbc_exec() in /app/add.php:64\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 64, referer: http://localhost:81/
+[Wed May 04 20:14:07.770912 2022] [php:notice] [pid 34] [client 172.17.0.1:55200] PHP Fatal error:  Uncaught Error: Call to undefined function odbc_exec() in /app/add.php:64\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 64, referer: http://localhost:81/add.php
+[Wed May 04 20:14:15.848372 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Warning:  Undefined array key "DrinkName" in /app/add.php on line 58, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.848763 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.848972 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.849232 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Warning:  Undefined array key "COI" in /app/add.php on line 59, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.849451 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.849685 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.850217 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Warning:  Undefined array key "Price" in /app/add.php on line 60, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.850900 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.851517 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.851989 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Warning:  Undefined array key "StoreName" in /app/add.php on line 61, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.852407 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.852866 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/index.php
+[Wed May 04 20:14:15.853149 2022] [php:notice] [pid 35] [client 172.17.0.1:55204] PHP Fatal error:  Uncaught Error: Call to undefined function odbc_exec() in /app/add.php:64\nStack trace:\n#0 {main}\n  thrown in /app/add.php on line 64, referer: http://localhost:81/index.php
+[Wed May 04 20:28:28.432033 2022] [php:notice] [pid 413] [client 172.17.0.1:55224] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/add.php:37\nStack trace:\n#0 /app/add.php(37): mysqli_real_escape_string()\n#1 {main}\n  thrown in /app/add.php on line 37, referer: http://localhost:81/add.html
+[Wed May 04 20:31:13.648470 2022] [php:notice] [pid 35] [client 172.17.0.1:55234] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/add.php:37\nStack trace:\n#0 /app/add.php(37): mysqli_real_escape_string()\n#1 {main}\n  thrown in /app/add.php on line 37, referer: http://localhost:81/add.html
+[Wed May 04 20:31:57.509097 2022] [php:notice] [pid 31] [client 172.17.0.1:55240] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/add.php:34\nStack trace:\n#0 /app/add.php(34): mysqli_real_escape_string()\n#1 {main}\n  thrown in /app/add.php on line 34, referer: http://localhost:81/add.html
+[Wed May 04 20:32:56.849456 2022] [php:notice] [pid 33] [client 172.17.0.1:55248] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/add.php:34\nStack trace:\n#0 /app/add.php(34): mysqli_real_escape_string()\n#1 {main}\n  thrown in /app/add.php on line 34, referer: http://localhost:81/add.html
+[Wed May 04 20:35:32.538498 2022] [php:notice] [pid 34] [client 172.17.0.1:55256] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/add.php:43\nStack trace:\n#0 /app/add.php(43): mysqli_query()\n#1 {main}\n  thrown in /app/add.php on line 43, referer: http://localhost:81/add.html
+[Wed May 04 20:35:46.918930 2022] [php:notice] [pid 412] [client 172.17.0.1:55264] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, PDO given in /app/add.php:43\nStack trace:\n#0 /app/add.php(43): mysqli_query()\n#1 {main}\n  thrown in /app/add.php on line 43, referer: http://localhost:81/add.html
+[Wed May 04 20:41:41.961765 2022] [php:notice] [pid 32] [client 172.17.0.1:55272] PHP Parse error:  Unmatched '}' in /app/add.php on line 51, referer: http://localhost:81/add.html
+[Wed May 04 20:41:57.330365 2022] [php:notice] [pid 413] [client 172.17.0.1:55280] PHP Parse error:  Unmatched '}' in /app/add.php on line 51, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.914003 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Warning:  Undefined variable $DrinkName in /app/add.php on line 34, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.914268 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Stack trace:, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.914537 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.915085 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Warning:  Undefined variable $COI in /app/add.php on line 34, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.915396 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Stack trace:, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.915929 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.916500 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Warning:  Undefined variable $StoreName in /app/add.php on line 35, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.917001 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Stack trace:, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.917528 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.917776 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Warning:  Undefined variable $Price in /app/add.php on line 36, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.917956 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP Stack trace:, referer: http://localhost:81/add.html
+[Wed May 04 20:44:11.918131 2022] [php:notice] [pid 35] [client 172.17.0.1:55290] PHP   1. {main}() /app/add.php:0, referer: http://localhost:81/add.html
+[Wed May 04 21:03:38.171322 2022] [php:notice] [pid 32] [client 172.17.0.1:55328] PHP Fatal error:  Cannot use [] for reading in /app/add.php on line 61, referer: http://localhost:81/add.php
+[Wed May 04 21:03:40.705583 2022] [php:notice] [pid 33] [client 172.17.0.1:55332] PHP Fatal error:  Cannot use [] for reading in /app/add.php on line 61, referer: http://localhost:81/index.php
+[Wed May 04 21:03:44.570330 2022] [php:notice] [pid 413] [client 172.17.0.1:55336] PHP Fatal error:  Cannot use [] for reading in /app/add.php on line 61, referer: http://localhost:81/index.php
+[Wed May 04 21:10:56.015636 2022] [php:notice] [pid 35] [client 172.17.0.1:55346] PHP Parse error:  syntax error, unexpected token "]" in /app/add.php on line 71, referer: http://localhost:81/index.php
+[Wed May 04 21:11:01.499921 2022] [php:notice] [pid 412] [client 172.17.0.1:55348] PHP Parse error:  syntax error, unexpected token "]" in /app/add.php on line 73, referer: http://localhost:81/index.php
+[Wed May 04 21:22:14.101985 2022] [mpm_prefork:notice] [pid 29] AH00169: caught SIGTERM, shutting down
+[Wed May 04 21:22:40.572595 2022] [mpm_prefork:notice] [pid 29] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed May 04 21:22:40.572962 2022] [core:notice] [pid 29] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed May 04 22:01:48.339310 2022] [php:notice] [pid 31] [client 172.17.0.1:55554] PHP Parse error:  syntax error, unexpected variable "$conn", expecting "," or ";" in /app/add.php on line 50, referer: http://localhost:81/add.php
+[Wed May 04 22:03:16.322657 2022] [php:notice] [pid 34] [client 172.17.0.1:55570] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 22:03:16.322995 2022] [php:notice] [pid 34] [client 172.17.0.1:55570] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 22:03:16.323306 2022] [php:notice] [pid 34] [client 172.17.0.1:55570] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 22:03:16.323614 2022] [php:notice] [pid 34] [client 172.17.0.1:55570] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 22:03:16.323969 2022] [php:notice] [pid 34] [client 172.17.0.1:55570] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 22:03:16.324461 2022] [php:notice] [pid 34] [client 172.17.0.1:55570] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 22:39:39.474098 2022] [php:notice] [pid 32] [client 172.17.0.1:55630] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.store_bev' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39, referer: http://localhost:81/add.php?DrinkName=Coors&StoreName=Wallmart&Price=8&COI=America
+[Wed May 04 22:40:14.422201 2022] [php:notice] [pid 35] [client 172.17.0.1:55642] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.alcohol' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39, referer: http://localhost:81/add.php?DrinkName=Coors&StoreName=Wallmart&Price=8&COI=America
+[Wed May 04 22:40:15.446281 2022] [php:notice] [pid 34] [client 172.17.0.1:55640] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.alcohol' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39, referer: http://localhost:81/add.php?DrinkName=Coors&StoreName=Wallmart&Price=8&COI=America
+[Wed May 04 22:40:35.916421 2022] [php:notice] [pid 411] [client 172.17.0.1:55646] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.alcohol' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39, referer: http://localhost:81/add.php?DrinkName=Coors&StoreName=Wallmart&Price=8&COI=America
+[Wed May 04 22:41:37.735652 2022] [php:notice] [pid 32] [client 172.17.0.1:55654] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.alcohol' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39, referer: http://localhost:81/add.php?DrinkName=Coors&StoreName=Wallmart&Price=8&COI=America
+[Wed May 04 22:41:38.689070 2022] [php:notice] [pid 33] [client 172.17.0.1:55658] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.alcohol' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39, referer: http://localhost:81/add.php?DrinkName=Coors&StoreName=Wallmart&Price=8&COI=America
+[Wed May 04 22:43:57.200248 2022] [mpm_prefork:notice] [pid 29] AH00169: caught SIGTERM, shutting down
+[Wed May 04 22:44:41.542829 2022] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed May 04 22:44:41.543184 2022] [core:notice] [pid 30] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed May 04 22:44:55.691798 2022] [php:notice] [pid 32] [client 172.17.0.1:55666] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boozebuddy.alcohol' doesn't exist in /app/index.php:39\nStack trace:\n#0 /app/index.php(39): PDO->query()\n#1 {main}\n  thrown in /app/index.php on line 39
+[Wed May 04 23:29:28.918532 2022] [php:notice] [pid 35] [client 172.17.0.1:55762] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 23:29:28.918901 2022] [php:notice] [pid 35] [client 172.17.0.1:55762] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:29:28.919252 2022] [php:notice] [pid 35] [client 172.17.0.1:55762] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:29:28.919635 2022] [php:notice] [pid 35] [client 172.17.0.1:55762] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 23:29:28.919964 2022] [php:notice] [pid 35] [client 172.17.0.1:55762] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:29:28.920250 2022] [php:notice] [pid 35] [client 172.17.0.1:55762] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:29:40.058211 2022] [php:notice] [pid 36] [client 172.17.0.1:55766] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 23:29:40.060211 2022] [php:notice] [pid 36] [client 172.17.0.1:55766] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:29:40.061772 2022] [php:notice] [pid 36] [client 172.17.0.1:55766] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:29:40.063129 2022] [php:notice] [pid 36] [client 172.17.0.1:55766] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 23:29:40.064269 2022] [php:notice] [pid 36] [client 172.17.0.1:55766] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:29:40.065247 2022] [php:notice] [pid 36] [client 172.17.0.1:55766] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:30:17.437626 2022] [php:notice] [pid 32] [client 172.17.0.1:55770] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 23:30:17.437982 2022] [php:notice] [pid 32] [client 172.17.0.1:55770] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:30:17.438261 2022] [php:notice] [pid 32] [client 172.17.0.1:55770] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:30:17.438566 2022] [php:notice] [pid 32] [client 172.17.0.1:55770] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 31, referer: http://localhost:81/index.php
+[Wed May 04 23:30:17.438842 2022] [php:notice] [pid 32] [client 172.17.0.1:55770] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:30:17.439118 2022] [php:notice] [pid 32] [client 172.17.0.1:55770] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:35:50.659873 2022] [php:notice] [pid 414] [client 172.17.0.1:55780] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 30, referer: http://localhost:81/index.php
+[Wed May 04 23:35:50.660278 2022] [php:notice] [pid 414] [client 172.17.0.1:55780] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:35:50.660653 2022] [php:notice] [pid 414] [client 172.17.0.1:55780] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:35:50.661237 2022] [php:notice] [pid 414] [client 172.17.0.1:55780] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 30, referer: http://localhost:81/index.php
+[Wed May 04 23:35:50.661695 2022] [php:notice] [pid 414] [client 172.17.0.1:55780] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:35:50.662030 2022] [php:notice] [pid 414] [client 172.17.0.1:55780] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:37:16.530284 2022] [php:notice] [pid 33] [client 172.17.0.1:55786] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 30, referer: http://localhost:81/index.php
+[Wed May 04 23:37:16.530603 2022] [php:notice] [pid 33] [client 172.17.0.1:55786] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:37:16.530883 2022] [php:notice] [pid 33] [client 172.17.0.1:55786] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:37:16.531157 2022] [php:notice] [pid 33] [client 172.17.0.1:55786] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 30, referer: http://localhost:81/index.php
+[Wed May 04 23:37:16.531442 2022] [php:notice] [pid 33] [client 172.17.0.1:55786] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:37:16.531812 2022] [php:notice] [pid 33] [client 172.17.0.1:55786] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:42:02.544621 2022] [php:notice] [pid 35] [client 172.17.0.1:55794] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 33, referer: http://localhost:81/index.php
+[Wed May 04 23:42:02.544985 2022] [php:notice] [pid 35] [client 172.17.0.1:55794] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:42:02.545405 2022] [php:notice] [pid 35] [client 172.17.0.1:55794] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:42:02.546368 2022] [php:notice] [pid 35] [client 172.17.0.1:55794] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 33, referer: http://localhost:81/index.php
+[Wed May 04 23:42:02.546947 2022] [php:notice] [pid 35] [client 172.17.0.1:55794] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:42:02.547734 2022] [php:notice] [pid 35] [client 172.17.0.1:55794] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:43:40.982298 2022] [php:notice] [pid 32] [client 172.17.0.1:55802] PHP Parse error:  syntax error, unexpected token "." in /app/map.php on line 34, referer: http://localhost:81/index.php
+[Wed May 04 23:44:36.926177 2022] [php:notice] [pid 414] [client 172.17.0.1:55812] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 33, referer: http://localhost:81/index.php
+[Wed May 04 23:44:36.927317 2022] [php:notice] [pid 414] [client 172.17.0.1:55812] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:44:36.928544 2022] [php:notice] [pid 414] [client 172.17.0.1:55812] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:44:36.929843 2022] [php:notice] [pid 414] [client 172.17.0.1:55812] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 33, referer: http://localhost:81/index.php
+[Wed May 04 23:44:36.931098 2022] [php:notice] [pid 414] [client 172.17.0.1:55812] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:44:36.932303 2022] [php:notice] [pid 414] [client 172.17.0.1:55812] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:37.571548 2022] [php:notice] [pid 33] [client 172.17.0.1:55818] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /app/map.php on line 36, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.680119 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.680613 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.681041 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.681430 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.681713 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.682048 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.682407 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.682883 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.683235 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.683745 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.684033 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.684483 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.684917 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.685340 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.685725 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.686148 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.686698 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.687351 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.687765 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.688127 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.688465 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.688822 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.689102 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.689446 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.689841 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.690423 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.690785 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.691125 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.691423 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.691734 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.691976 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.692267 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.692518 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.692752 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.692966 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.693196 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.693404 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.693595 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.693780 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.693975 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.694159 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.694357 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.694529 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.694733 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.694930 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.695128 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.695456 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.695698 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.695948 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.696166 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.696379 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.696670 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.696873 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.697195 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.697588 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.697809 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.698015 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.698223 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.698387 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.698548 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.698712 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.698873 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.699128 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.699283 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.699443 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:49:47.699595 2022] [php:notice] [pid 34] [client 172.17.0.1:55822] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.305768 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.306142 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.306506 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.306881 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.307315 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.307596 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.307925 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.308245 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.308607 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.308930 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.309268 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.309699 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.310109 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.310381 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.310685 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.310959 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.311302 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.311762 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.312081 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.312363 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.312600 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.312902 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.313145 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.313374 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.313658 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.313866 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.314096 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.314343 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.314599 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.314922 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.315310 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.315504 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.315779 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.315994 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.316224 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.316432 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.316648 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.316883 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.317097 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.317310 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.317579 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.318170 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.318963 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.319487 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.319866 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.320191 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.320655 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.321021 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.321437 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.321684 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.321939 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.322167 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.322400 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.322622 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.322879 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.323095 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.323527 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.323807 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.324089 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.324378 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.324664 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "id" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.324936 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.325210 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.325634 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Warning:  Undefined array key "name" in /app/map.php on line 35, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.325989 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:50:36.326337 2022] [php:notice] [pid 32] [client 172.17.0.1:55834] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:57:53.354523 2022] [php:notice] [pid 414] [client 172.17.0.1:55846] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 65, referer: http://localhost:81/index.php
+[Wed May 04 23:57:53.355345 2022] [php:notice] [pid 414] [client 172.17.0.1:55846] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:57:53.355698 2022] [php:notice] [pid 414] [client 172.17.0.1:55846] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:57:53.356480 2022] [php:notice] [pid 414] [client 172.17.0.1:55846] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /app/map.php:65\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 65, referer: http://localhost:81/index.php
+[Wed May 04 23:59:46.821639 2022] [php:notice] [pid 33] [client 172.17.0.1:55854] PHP Warning:  Undefined variable $StoreName in /app/map.php on line 70, referer: http://localhost:81/index.php
+[Wed May 04 23:59:46.822088 2022] [php:notice] [pid 33] [client 172.17.0.1:55854] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:59:46.822464 2022] [php:notice] [pid 33] [client 172.17.0.1:55854] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Wed May 04 23:59:46.822853 2022] [php:notice] [pid 33] [client 172.17.0.1:55854] PHP Warning:  foreach() argument must be of type array|object, null given in /app/map.php on line 70, referer: http://localhost:81/index.php
+[Wed May 04 23:59:46.823195 2022] [php:notice] [pid 33] [client 172.17.0.1:55854] PHP Stack trace:, referer: http://localhost:81/index.php
+[Wed May 04 23:59:46.823552 2022] [php:notice] [pid 33] [client 172.17.0.1:55854] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:03:38.443188 2022] [php:notice] [pid 35] [client 172.17.0.1:55860] PHP Warning:  Undefined variable $pdo in /app/map.php on line 81, referer: http://localhost:81/index.php
+[Thu May 05 00:03:38.443532 2022] [php:notice] [pid 35] [client 172.17.0.1:55860] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:03:38.443787 2022] [php:notice] [pid 35] [client 172.17.0.1:55860] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:03:38.444211 2022] [php:notice] [pid 35] [client 172.17.0.1:55860] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/map.php:81\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 81, referer: http://localhost:81/index.php
+[Thu May 05 00:04:23.972642 2022] [php:notice] [pid 32] [client 172.17.0.1:55868] PHP Warning:  Undefined variable $pdo in /app/map.php on line 81, referer: http://localhost:81/index.php
+[Thu May 05 00:04:23.973037 2022] [php:notice] [pid 32] [client 172.17.0.1:55868] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:04:23.973454 2022] [php:notice] [pid 32] [client 172.17.0.1:55868] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:04:23.973854 2022] [php:notice] [pid 32] [client 172.17.0.1:55868] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/map.php:81\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 81, referer: http://localhost:81/index.php
+[Thu May 05 00:06:22.657277 2022] [php:notice] [pid 414] [client 172.17.0.1:55874] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /app/map.php:73\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 73, referer: http://localhost:81/index.php
+[Thu May 05 00:07:09.174967 2022] [php:notice] [pid 415] [client 172.17.0.1:55878] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /app/map.php:71\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 71, referer: http://localhost:81/index.php
+[Thu May 05 00:08:01.596806 2022] [php:notice] [pid 33] [client 172.17.0.1:55882] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /app/map.php:71\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 71, referer: http://localhost:81/index.php
+[Thu May 05 00:08:18.076731 2022] [php:notice] [pid 34] [client 172.17.0.1:55886] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /app/map.php:71\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 71, referer: http://localhost:81/index.php
+[Thu May 05 00:09:34.081996 2022] [php:notice] [pid 36] [client 172.17.0.1:55894] PHP Warning:  Undefined variable $listEntries in /app/map.php on line 52, referer: http://localhost:81/index.php
+[Thu May 05 00:09:34.082338 2022] [php:notice] [pid 36] [client 172.17.0.1:55894] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:09:34.082714 2022] [php:notice] [pid 36] [client 172.17.0.1:55894] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:09:34.083300 2022] [php:notice] [pid 36] [client 172.17.0.1:55894] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /app/map.php:52\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 52, referer: http://localhost:81/index.php
+[Thu May 05 00:11:14.377005 2022] [php:notice] [pid 413] [client 172.17.0.1:55902] PHP Warning:  Undefined variable $pdo in /app/map.php on line 71, referer: http://localhost:81/index.php
+[Thu May 05 00:11:14.377348 2022] [php:notice] [pid 413] [client 172.17.0.1:55902] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:11:14.377741 2022] [php:notice] [pid 413] [client 172.17.0.1:55902] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:11:14.378073 2022] [php:notice] [pid 413] [client 172.17.0.1:55902] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/map.php:71\nStack trace:\n#0 {main}\n  thrown in /app/map.php on line 71, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.796184 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.796609 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.796994 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.797971 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.798295 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.798645 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.798982 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.799319 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.799592 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.799910 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.800325 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.800647 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.801020 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.801536 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.802324 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.802969 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.803581 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.803936 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.804393 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.805002 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.805394 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.805840 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.806231 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.806563 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.806932 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.807373 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.807859 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.808457 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.808870 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.809364 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.810130 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.810787 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP Stack trace:, referer: http://localhost:81/index.php
+[Thu May 05 00:12:13.811248 2022] [php:notice] [pid 415] [client 172.17.0.1:55910] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/index.php
+[Thu May 05 00:12:39.506560 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.507100 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.507468 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.508011 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.508468 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.508870 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.509254 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.509660 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.510106 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.510698 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.511132 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.511483 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.511785 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.512177 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.512444 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.512765 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.513034 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.513345 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.513670 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.514008 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.514250 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.514552 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.514753 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.515060 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.515306 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.515703 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.516104 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.516506 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.516738 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.516992 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.517179 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.517447 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php
+[Thu May 05 00:12:39.517628 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php
+[Thu May 05 00:12:43.435562 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.436022 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.436385 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.436713 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.437152 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.437595 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.438056 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.438426 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.438753 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.439165 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.439675 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.440156 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.440504 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.440773 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.441012 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.441225 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.441461 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.441686 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.441899 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.442094 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.442323 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.442708 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.442917 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.443100 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.443284 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.443437 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.443586 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.443786 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.443995 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.444176 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.444332 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.444482 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:43.444750 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.698395 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.699141 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.699757 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.700266 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.700755 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.701364 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.702085 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.702523 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.702917 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.703336 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.703742 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.704146 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.704520 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.704867 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.705231 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.705596 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.705935 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.706304 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.706900 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.707191 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.707425 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.707695 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.707956 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.708190 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.708371 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.708572 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.708712 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.708918 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.709079 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.709276 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.709420 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.709562 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:12:47.709702 2022] [php:notice] [pid 33] [client 172.17.0.1:55914] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.808017 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined array key "address" in /app/map.php on line 35, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.808385 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.808816 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.809769 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.810133 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.810459 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.810993 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.811688 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.812331 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.812774 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.813110 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.813463 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.813733 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.814001 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.814216 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.814469 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.814649 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.814868 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.815037 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.815250 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.815446 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.815639 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.815836 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.816026 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.816285 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.816499 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.816722 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.817134 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.817299 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.817506 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.817832 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.818607 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.819227 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.819643 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.819962 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:32.820163 2022] [php:notice] [pid 35] [client 172.17.0.1:55922] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.576317 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined array key "address" in /app/map.php on line 35, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.576652 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.576983 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.578289 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.578578 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.579089 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.579420 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.579777 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.580109 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.580305 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.580599 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.581014 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.581508 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.582010 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.582380 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.582672 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.583031 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.583349 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.583763 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.583953 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.584207 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.584366 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.584583 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.584738 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.584994 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.585204 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.585384 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.585542 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.585711 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.585844 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.586141 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.586289 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.586441 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.586624 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.586808 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:38.586994 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.560138 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined array key "address" in /app/map.php on line 35, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.560493 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.560820 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.563187 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.563457 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.563712 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.563984 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.564212 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.564612 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.564949 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.565279 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.565555 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.565865 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.566112 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.566351 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.566685 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.567110 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.567521 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.567955 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.568424 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.568652 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.568895 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.569049 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.569272 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.569444 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.569655 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.569819 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.570033 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.570196 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.570407 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.570575 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.570786 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.570962 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.571283 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Warning:  Undefined variable $StoreId in /app/map.php on line 79, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.571496 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:13:42.571740 2022] [php:notice] [pid 36] [client 172.17.0.1:55926] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:14:46.258093 2022] [php:notice] [pid 413] [client 172.17.0.1:55936] PHP Warning:  Undefined array key "address" in /app/map.php on line 35, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:14:46.258729 2022] [php:notice] [pid 413] [client 172.17.0.1:55936] PHP Stack trace:, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:14:46.259162 2022] [php:notice] [pid 413] [client 172.17.0.1:55936] PHP   1. {main}() /app/map.php:0, referer: http://localhost:81/map.php?Store=&submit_address=Submit
+[Thu May 05 00:37:15.526033 2022] [mpm_prefork:notice] [pid 30] AH00169: caught SIGTERM, shutting down
+[Thu May 05 00:38:18.521615 2022] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 05 00:38:18.522215 2022] [core:notice] [pid 30] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu May 05 00:49:58.273208 2022] [php:notice] [pid 36] [client 172.17.0.1:56078] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT StoreName from Store' at line 1 in /app/map.php:52\nStack trace:\n#0 /app/map.php(52): PDO->query()\n#1 {main}\n  thrown in /app/map.php on line 52, referer: http://localhost:81/
+[Thu May 05 00:50:07.386265 2022] [php:notice] [pid 413] [client 172.17.0.1:56082] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT StoreName from Store' at line 1 in /app/map.php:52\nStack trace:\n#0 /app/map.php(52): PDO->query()\n#1 {main}\n  thrown in /app/map.php on line 52, referer: http://localhost:81/
+[Thu May 05 00:50:08.379513 2022] [php:notice] [pid 32] [client 172.17.0.1:56086] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT StoreName from Store' at line 1 in /app/map.php:52\nStack trace:\n#0 /app/map.php(52): PDO->query()\n#1 {main}\n  thrown in /app/map.php on line 52, referer: http://localhost:81/
+[Thu May 05 00:50:09.175816 2022] [php:notice] [pid 33] [client 172.17.0.1:56090] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT StoreName from Store' at line 1 in /app/map.php:52\nStack trace:\n#0 /app/map.php(52): PDO->query()\n#1 {main}\n  thrown in /app/map.php on line 52, referer: http://localhost:81/

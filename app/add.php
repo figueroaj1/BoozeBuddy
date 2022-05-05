@@ -11,6 +11,28 @@
             <h1>Booze Buddy</h1>
         </header>    
         <main>
+        <br>
+            <a href="index.php">Home</a>
+
+
+            <h2> Please enter information </h2>
+            <form method="get">
+                <label> Beer Name: </label> <br>
+                <input type="text" name="DrinkName" id="DrinkName">
+                    <br><br>
+                <label> Store Name: </label> <br>
+                <input type="text" name="StoreName" id="StoreName">
+                    <br><br>
+                <label> Price: </label> <br>
+                <input type="text" name="Price" id="Price">
+                    <br><br>
+                <label> Country of Origin </label> <br>
+                <input type="text" name="COI" id="COI">
+                    <br><br>
+                <input type="submit" value="submit">
+            </form>
+            <br>
+
             <?php
                 //Connect to database          
                 $host = "localhost";
@@ -23,67 +45,70 @@
                 //test connection
                 try {
                     $dbh = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
-                    echo 'here is something';
+                    echo 'Connection Succesful';
+                    echo "<br>";
                     $conn = new mysqli($host, $user, $password, $dbname);
                 } catch (PDOException $e) {
                     echo 'Connection Failed: ' . $e->getMessage();
                 }
-            ?> 
-            <h2> Please enter information </h2>
-            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-                <label for="storeID"> Store ID: </label>
-                <br>
-                <input type="text" id="StoreID">
-                <br><br>
-                <label for="price"> Price: </label>
-                <br>
-                <input type="text" id="Price">
-                <br><br>
-                <label for="alcoholID"> Alcohol ID: </label>
-                <br>
-                <input type="text" id="AlcID">
-                <br><br>
-                <label for="date"> Date Observed: </label>
-                <br>
-                <input type="submit" value="submit">
-            </form>
 
-            <?php
-                // collect value of input field
-                $StoreID = $_REQUEST['StoreID'];
-                $Price = $_REQUEST['Price'];
-                $AlcID = $_REQUEST['AlcID'];
+                // Inserting the data for Alcohol Table
+                if(isset($_GET['DrinkName'])) 
+                {
 
-                $EnterStoreID = $_POST['StoreID'];
-                $EnterPrice = $_POST['Price'];
-                $EnterAlcID = $_POST['AlcID'];
+                    $sql = 'INSERT INTO Alcohol '.
+                    '(DrinkName, COI) '.
+                    'VALUES (?, ?);';
+                    $statement = $dbh->prepare($sql);
+                    $statement->bindValue(1, $_GET['DrinkName']);
+                    $statement->bindValue(2, $_GET['COI']);
 
-                $sql = "INSERT INTO Store_Bev (StoreID) VALUES ('$EnterStoreID')"; 
-                // $result = $dbh->
-                if (empty($AlcID) || empty($StoreID) || empty($Price)) {
-                    echo "data is empty<br>";
-                } else {
-                    if($conn->query($sql) ===TRUE) {
-                        echo "Records entered succesfully";
-                    } else {
-                        echo "ERROR: " . $sql . "<br>" . $conn->error;
+
+                    try{
+                        $ret = $statement->execute();
+                    }catch(Exception $e){
+                        echo "Insert error: ", $e->getMessage();
                     }
+                    echo "<br>";
                 }
-            ?>
-   
-            <?php
-               
-                $sql = "SELECT storeID, price, alcID FROM Store_Bev";
-                $result = $conn->query($sql);
-                
-                if ($result->num_rows > 0) {
-                  // output data of each row
-                  while($row = $result->fetch_assoc(PDO::FETCH_ASSOC)) {
-                    echo "<tr><td>" . htmlspecialchars($row["storeID"]) . "</td><td>" . $row["price"]. " " . $row["alcID"]. "<br>";
-                  }
-                } else {
-                  echo "0 results";
+
+                if(isset($_GET['StoreName'])) 
+                {
+
+                    $sql = 'INSERT INTO Store '.
+                    '(StoreName) '.
+                    'VALUES (?);';
+                    $statement = $dbh->prepare($sql);
+                    $statement->bindValue(1, $_GET['StoreName']);
+
+
+                    try{
+                        $ret = $statement->execute();
+                    }catch(Exception $e){
+                        echo "Insert error: ", $e->getMessage();
+                    }
+                    echo "<br>";
                 }
+
+                if(isset($_GET['Price'])) 
+                {
+
+                    
+                    $sql = 'INSERT INTO Store_Bev '.
+                    '(Price) '.
+                    'VALUES (?);';
+                    $statement = $dbh->prepare($sql);
+                    $statement->bindValue(1, $_GET['Price']);
+
+                    try{
+                        $ret = $statement->execute();
+                    }catch(Exception $e){
+                        echo "Insert error: ", $e->getMessage();
+                    }
+                    echo "<h1>insert happened!</h1>";
+                }
+
+
 
             ?>
        

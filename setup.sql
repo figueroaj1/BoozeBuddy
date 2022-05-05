@@ -2,13 +2,13 @@
 CREATE DATABASE IF NOT EXISTS boozebuddy;
 USE boozebuddy;
 
-DROP TABLE IF EXISTS Store, Alcohol, Store_Bev;
+DROP TABLE IF EXISTS Alcohol;
 -- Table: Beer
 CREATE TABLE Alcohol
 (
-	AlcID int NOT NULL,
+	AlcID int NOT NULL AUTO_INCREMENT,
 	DrinkName varchar(35),
-	ABV int,
+	ABV NUMERIC(5,2),
 	BeerType varchar(20),
 	COI varchar(20),
 	PRIMARY KEY (AlcID)
@@ -22,11 +22,11 @@ INSERT INTO Alcohol VALUES(103, 'Yuengling', 5.4, 'Lager', 'America');
 INSERT INTO Alcohol VALUES(104, 'Miller Lite', 4.2, 'Lite Lager', 'America');
 
 -- Table Store
-DROP TABLE IF EXISTS store;
+DROP TABLE IF EXISTS Store;
 CREATE TABLE Store
 (
-	StoreID int NOT NULL AUTO_INCREMENT,
-	Store_Name varchar(20),
+	StoreID int NULL,
+	StoreName varchar(20),
 	begin_time time(2),
 	end_time time(2),
 	LAT int,
@@ -34,7 +34,7 @@ CREATE TABLE Store
 	PRIMARY KEY (StoreID)
 );
 
-INSERT INTO Store VALUES(1 ,'Wallmart', '9:00', '24:00', 36.358498566, -94.209832494);
+INSERT INTO Store VALUES(1 ,'Walmart', '9:00', '24:00', 36.358498566, -94.209832494);
 INSERT INTO Store VALUES(2 ,'Target', '9:00', '24:00', 36.358498566, -94.209832494);
 INSERT INTO Store VALUES(3 ,'Krogger', '9:00', '24:00', 36.358498566, -94.209832494);
 INSERT INTO Store VALUES(4 ,'Meijer', '9:00', '24:00', 36.358498566, -94.209832494);
@@ -43,9 +43,9 @@ INSERT INTO Store VALUES(5 ,'Costco', '9:00', '24:00', 36.358498566, -94.2098324
 -- Table Store Bev
 CREATE TABLE Store_Bev
 (
-	StoreID int NOT NULL,
+	StoreID int NULL,
 	Price int,
-	AlcID int NOT NULL,
+	AlcID int NOT NULL AUTO_INCREMENT,
 	-- DateObserved DATE,
 	PRIMARY KEY (StoreID, AlcID),
 	FOREIGN KEY (AlcID) REFERENCES Alcohol(AlcID),
